@@ -12,7 +12,7 @@ function submit(elements) {
    // } = elements.target
 
    if (inputEmail.value === '' || inputPassword.value === '') {
-      return alert('Привет Илья')
+      return alert('All fields must be filled!')
    }
    const userInfo = {
       email: inputEmail.value,
