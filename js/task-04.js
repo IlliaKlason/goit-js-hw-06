@@ -13,3 +13,5 @@ function callback(counter) {
 counterDecrement.addEventListener('click', () => callback("decrement"))
 
 counterIncrement.addEventListener('click', () => callback("increment"))
+
+console.log(counterValue);
