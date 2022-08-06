@@ -9,7 +9,7 @@ const input = document.querySelector('[type="number"]');
 
 
 function createBoxes() {
-
+  boxes.innerHTML = "";
 
   const number = input.value;
   const items = [];
