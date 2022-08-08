@@ -5,8 +5,8 @@ const inputPassword = document.querySelector("[type = 'password']");
 
 form.addEventListener('submit', submit)
 
-function submit(elements) {
-   elements.preventDefault()
+function submit(e) {
+   e.preventDefault()
    // const {
    //    elements: { email, password },
    // } = elements.target
@@ -21,5 +21,5 @@ function submit(elements) {
 
       console.log(userInfo)
    }
-   elements.target.reset()
+   e.target.reset()
 }
