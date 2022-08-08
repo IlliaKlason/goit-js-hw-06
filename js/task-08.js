@@ -11,7 +11,7 @@ function submit(e) {
    //    elements: { email, password },
    // } = elements.target
 
-   if (inputEmail.value === '' || inputPassword.value === '') {
+   if (inputEmail.value.trim() === '' || inputPassword.value.trim() === '') {
       return alert('All fields must be filled!')
    } else {
       const userInfo = {
